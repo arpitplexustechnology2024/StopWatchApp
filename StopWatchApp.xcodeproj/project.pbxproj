@@ -16,6 +16,9 @@
 		BD76773C2C2A33C100C8F90F /* StopWatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD76773B2C2A33C100C8F90F /* StopWatchAppTests.swift */; };
 		BD7677462C2A33C100C8F90F /* StopWatchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7677452C2A33C100C8F90F /* StopWatchAppUITests.swift */; };
 		BD7677482C2A33C100C8F90F /* StopWatchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7677472C2A33C100C8F90F /* StopWatchAppUITestsLaunchTests.swift */; };
+		BD7677552C2A34AB00C8F90F /* StopwatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7677542C2A34AB00C8F90F /* StopwatchViewModel.swift */; };
+		BD7677572C2A4B9A00C8F90F /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7677562C2A4B9A00C8F90F /* Color.xcassets */; };
+		BD7677592C2A4E1900C8F90F /* Lap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7677582C2A4E1900C8F90F /* Lap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BD7677412C2A33C100C8F90F /* StopWatchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7677452C2A33C100C8F90F /* StopWatchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchAppUITests.swift; sourceTree = "<group>"; };
 		BD7677472C2A33C100C8F90F /* StopWatchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD7677542C2A34AB00C8F90F /* StopwatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewModel.swift; sourceTree = "<group>"; };
+		BD7677562C2A4B9A00C8F90F /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		BD7677582C2A4E1900C8F90F /* Lap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +108,11 @@
 				BD7677242C2A33BF00C8F90F /* AppDelegate.swift */,
 				BD7677262C2A33BF00C8F90F /* SceneDelegate.swift */,
 				BD7677282C2A33BF00C8F90F /* ViewController.swift */,
+				BD7677582C2A4E1900C8F90F /* Lap.swift */,
+				BD7677542C2A34AB00C8F90F /* StopwatchViewModel.swift */,
 				BD76772A2C2A33BF00C8F90F /* Main.storyboard */,
 				BD76772D2C2A33C000C8F90F /* Assets.xcassets */,
+				BD7677562C2A4B9A00C8F90F /* Color.xcassets */,
 				BD76772F2C2A33C000C8F90F /* LaunchScreen.storyboard */,
 				BD7677322C2A33C000C8F90F /* Info.plist */,
 			);
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD76772E2C2A33C000C8F90F /* Assets.xcassets in Resources */,
+				BD7677572C2A4B9A00C8F90F /* Color.xcassets in Resources */,
 				BD7677312C2A33C000C8F90F /* Base in Resources */,
 				BD76772C2C2A33BF00C8F90F /* Base in Resources */,
 			);
@@ -258,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7677552C2A34AB00C8F90F /* StopwatchViewModel.swift in Sources */,
 				BD7677292C2A33BF00C8F90F /* ViewController.swift in Sources */,
 				BD7677252C2A33BF00C8F90F /* AppDelegate.swift in Sources */,
+				BD7677592C2A4E1900C8F90F /* Lap.swift in Sources */,
 				BD7677272C2A33BF00C8F90F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
